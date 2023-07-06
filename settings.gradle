@@ -11,7 +11,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
+        jcenter()
         maven {
               url 'https://api.mapbox.com/downloads/v2/releases/maven'
             authentication {
@@ -22,7 +22,7 @@ dependencyResolutionManagement {
                 // This should always be `mapbox` (not your username).
                 username = "mapbox"
                 // Use the secret token you stored in gradle.properties as the password
-                password = "sk.eyJ1IjoicHJhZGVlcDkyIiwiYSI6ImNsam1kbGZtbDAwMjAzZXFtYWZxams5dXMifQ.PUGXLPNdBjuzxwCCBW9NuQ"
+                password = "sk.eyJ1IjoicHJhZGVlcDkyIiwiYSI6ImNsanBua2E3NjAweHoza3FoZnVodWMwMzYifQ.Zk93I2pNK5-RdoYJhs0EsQ"
 
             }
 
